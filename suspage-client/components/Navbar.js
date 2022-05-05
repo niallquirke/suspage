@@ -25,10 +25,18 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar
+      position="static"
+      sx={{ bgcolor: "#fff", boxShadow: 0, borderBottom: "1px solid #dbdbdb" }}
+    >
+      <Container maxWidth="md">
         <Toolbar disableGutters>
-          <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
+          <Typography
+            variant="h6"
+            noWrap
+            component="div"
+            sx={{ flexGrow: 1, fontWeight: "bold" }}
+          >
             🌍 SusPage
           </Typography>
           <Box sx={{ flexGrow: 0, mr: 2 }}>
@@ -41,7 +49,7 @@ const Navbar = () => {
           <Box sx={{ flexGrow: 0, mr: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
+                <Avatar alt="Remy Sharp" src="profiler.jpg" />
               </IconButton>
             </Tooltip>
             <Menu
