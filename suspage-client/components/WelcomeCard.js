@@ -18,7 +18,7 @@ const WelcomeCard = () => {
       <Typography variant="h4" component="h1">
         Welcome to SusPage
       </Typography>
-      <Typography component="p">Here's how to use it</Typography>
+      <Typography component="p">Here&apos;s how to use it</Typography>
     </Box>
   );
 };
