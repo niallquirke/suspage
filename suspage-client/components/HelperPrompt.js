@@ -2,25 +2,25 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
-const WelcomeCard = () => {
+const HelperPrompt = () => {
   return (
     <Box
       sx={{
         mt: 4,
-        px: "6%",
-        py: 2,
         border: "1px solid #e6ebf1",
         bgcolor: "#fff",
-        height: 500,
+        borderRadius: "10px",
+        padding: 2,
+        height: 300,
         width: "100%",
       }}
     >
       <Typography variant="h4" component="h1">
-        Inspiring message
+        Check out...
       </Typography>
-      <Typography component="p">Add your first review!</Typography>
+      <Typography component="p">Icons for popular uses...</Typography>
     </Box>
   );
 };
 
-export default WelcomeCard;
+export default HelperPrompt;

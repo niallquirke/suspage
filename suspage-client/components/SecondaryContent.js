@@ -2,12 +2,12 @@ import React from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 
-const FilterTool = () => {
+const SecondaryContent = () => {
   return (
     <Box
       sx={{
         my: 4,
-        border: "1px solid #dbdbdb",
+        border: "1px solid #e6ebf1",
         bgcolor: "#fff",
         borderRadius: "10px",
         padding: 2,
@@ -15,9 +15,9 @@ const FilterTool = () => {
         width: "100%",
       }}
     >
-      <Typography component="p">Filters</Typography>
+      <Typography component="p">Secondary Content</Typography>
     </Box>
   );
 };
 
-export default FilterTool;
+export default SecondaryContent;

@@ -2,7 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
-const WelcomeCard = () => {
+const Press = () => {
   return (
     <Box
       sx={{
@@ -10,17 +10,16 @@ const WelcomeCard = () => {
         px: "6%",
         py: 2,
         border: "1px solid #e6ebf1",
-        bgcolor: "#fff",
-        height: 500,
+        height: 300,
         width: "100%",
       }}
     >
       <Typography variant="h4" component="h1">
-        Inspiring message
+        What people are saying about SusPage
       </Typography>
       <Typography component="p">Add your first review!</Typography>
     </Box>
   );
 };
 
-export default WelcomeCard;
+export default Press;

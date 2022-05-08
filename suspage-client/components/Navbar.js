@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <AppBar
       position="static"
-      sx={{ bgcolor: "#fff", boxShadow: 0, borderBottom: "1px solid #dbdbdb" }}
+      sx={{ bgcolor: "#fff", boxShadow: 0, borderBottom: "1px solid #e6ebf1" }}
     >
       <Container maxWidth="md">
         <Toolbar disableGutters>

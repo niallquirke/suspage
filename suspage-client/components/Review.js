@@ -7,7 +7,7 @@ const Review = () => {
     <Box
       sx={{
         my: 4,
-        border: "1px solid #dbdbdb",
+        border: "1px solid #e6ebf1",
         bgcolor: "#fff",
         borderRadius: "10px",
         padding: 2,
